@@ -71,7 +71,7 @@ Should you use POND in your own work, please reference it by citing
 * Lino M. Bounds on long-time averaged magnitudes in hydrodynamic-type systems using sum-of-squares of polynomials technique. MSc thesis, Department of Aeronautics, Imperial College London, 2019.
 
  ```
-@msci{ponds,
+@misc{ponds,
 	author={Lino M},
 	year={2019},
 	title={Bounds on Long-Time Averaged Magnitudes in Hydrodynamic-Type Systems Using Sum-of-Squares of Polynomials Technique},
