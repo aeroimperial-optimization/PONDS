@@ -9,14 +9,15 @@ We expect that in the future PONDS also implements Sum-of-Squares technique to s
 * **Release notes:**
 	- Toolbox [UODESys](https://github.com/aeroimperial-optimization/UODESys) has been included. UODESys interface has been modified to be more user-friendly.
 	- Functions in `./BoundSys/` folder are design to find bounds on long-time averaged polynomial magnitudes in hydrodynamic-type systems.
-  - Examples have been included for Lorenz Attractor and N-dimensional truncations of Kuramoto-Sivashinsky equation.
+  - Examples have been included for Lorenz attractor and N-dimensional truncations of Kuramoto-Sivashinsky equation.
 
 ## Contents
 - [System requirements](#Requirements)
 - [License](#License)
 - [Installation](#Install)
 - [Getting started](#GettingStarted)
-
+- [How to cite](#Cite)
+- [Copyright](#Copyright)
 
 ## System requirements<a name="Requirements"></a>
 
@@ -67,10 +68,10 @@ at MATLAB's command prompt.
 
 Should you use POND in your own work, please reference it by citing
 
-* Lino M. Bounds on Long-Time Averaged Magnitudes in Hydrodynamic-Type Systems UsingSum-of-Squares of Polynomials Technique. PhD thesis, Department of Aeronautics, ImperialCollege London, 2019.
+* Lino M. Bounds on long-time averaged magnitudes in hydrodynamic-type systems using sum-of-squares of polynomials technique. MSc thesis, Department of Aeronautics, Imperial College London, 2019.
 
  ```
-@phdthesis{ponds,
+@msci{ponds,
 	author={Lino M},
 	year={2019},
 	title={Bounds on Long-Time Averaged Magnitudes in Hydrodynamic-Type Systems Using Sum-of-Squares of Polynomials Technique},
