@@ -1,4 +1,4 @@
-# PONDS (Polynomial Optimisation of Non-linear systems)
+# PONDS (Polynomial Optimisation of Non-linear Systems)
 An open-source MATLAB toolbox for finding upper and lower bounds on long-time averaged polynomial magnitudes in deterministic/stochastic hydrodynamic-type systems using Sum-of-Squares technique. Below is a quick guide to PONDS, for a more deatiled description and examples refer to the user manual, which you can found inside the `./docs/` folder.
 
 Note: This code is under very active development and will be subject to changes and improvements, so watch this space!
