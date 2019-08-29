@@ -64,7 +64,7 @@ For more information on the main functions in `BoundSys()` and `BoundUsys()`, pl
 
 at MATLAB's command prompt.
 
-## How to cite<a name="Cite"></a>
+## How to cite PONDS<a name="Cite"></a>
 
 Should you use POND in your own work, please reference it by citing
 
