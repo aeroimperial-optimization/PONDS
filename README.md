@@ -1,5 +1,7 @@
 # PONDS (Polynomial Optimisation of Non-linear Systems)
-An open-source MATLAB toolbox for studying non-linear dynamical systems using polynomial optimisation. Below is a quick guide to PONDS, for a more deatiled description and examples refer to the user manual, which can be found inside the `./docs/` folder.
+An open-source MATLAB toolbox for studying non-linear dynamical systems using polynomial optimisation.
+Such systems should be expresed as ODE systems, hence PDEs must be truncated to N-dimensional ODE systems before using PONDS.
+Below is a quick guide to PONDS, for a more deatiled description and examples refer to the user manual, which can be found inside the `./docs/` folder.
 
 Note: This code is under very active development and will be subject to changes and improvements, so watch this space!
 We expect that in the future PONDS will be able to go beyond just bounding infinite-time averages.
