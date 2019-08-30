@@ -1,8 +1,8 @@
 # PONDS (Polynomial Optimisation of Non-linear Systems)
-An open-source MATLAB toolbox for finding upper and lower bounds on long-time averaged polynomial magnitudes in deterministic/stochastic hydrodynamic-type systems using Sum-of-Squares technique. Below is a quick guide to PONDS, for a more deatiled description and examples refer to the user manual, which you can found inside the `./docs/` folder.
+An open-source MATLAB toolbox for studying non-linear dynamical systems using polynomial optimisation. Below is a quick guide to PONDS, for a more deatiled description and examples refer to the user manual, which can be found inside the `./docs/` folder.
 
 Note: This code is under very active development and will be subject to changes and improvements, so watch this space!
-We expect that in the future PONDS also implements Sum-of-Squares technique to solve other problems than bounding dynamical systems. 
+We expect that in the future PONDS will be able to go beyond just bounding infinite-time averages.
 
 * **Latest release:** 1.0
 * **Release date:** 29 August 2019
@@ -30,7 +30,7 @@ In order to use PONDS, you will need:
 
 ## License<a name="License"></a>
 
-POND is distributed under the [Apache 2.0 licence](http://www.apache.org/licenses/LICENSE-2.0):
+PONDS is distributed under the [Apache 2.0 licence](http://www.apache.org/licenses/LICENSE-2.0):
 
 Copyright 2019, M. Lino.
 
@@ -66,7 +66,7 @@ at MATLAB's command prompt.
 
 ## How to cite PONDS<a name="Cite"></a>
 
-Should you use POND in your own work, please reference it by citing
+Should you use PONDS in your own work, please reference it by citing
 
 * Lino M. Bounds on long-time averaged magnitudes in hydrodynamic-type systems using sum-of-squares of polynomials technique. MSc thesis, Department of Aeronautics, Imperial College London, 2019.
 
