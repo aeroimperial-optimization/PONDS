@@ -86,17 +86,8 @@ elseif size(sigma,1) == n
     % Compute matrix S for the system with state vector (b_1,b_2,...,b_n)
     S = sigma*sigma';
     D = -(P*z0^2 + z'*z)*(jacobian(V,a)*f + jacobian(V,q)*.5*KAPPA*q + phi + epsilon*div( S*jacobian(V,a)',a) - U) - 2*P*z0*(jacobian(V,a) - jacobian(V,q)*(0.5/q)*a')*z;
-elseif size(sigma,1) == N
-    % Noise is added first to the N-dimensional system;
-    sigma = eigenvectors\sigma; % Transform \sigma to energy stability axes
-    % Compute matrix S for the system with state vector (b_1,b_2,...,b_n,q^2)
-    S = [sigma(1:n,:)*sigma(1:n,:)', zeros(n,1);zeros(1,n),0];
-    % Obtain MU
-    MU = 2*sqrt(epsilon)*norm(sigma(n+1:end)*epsilon);
-    sdpvar blank;
-    D = -(P*z0^2 + z'*z)*(jacobian(V,a)*f + jacobian(V,q)*.5*KAPPA*q + jacobian(V,q)*.5*MU*sign(q) + phi + epsilon*div( S*jacobian(V,[a;blank])' ,[a;blank]) - U) - 2*P*z0*(jacobian(V,a) - jacobian(V,q)*(0.5/q)*a')*z;
 else
-    disp("BoundUsys: ERROR. Not valid dimension for sigma.")
+    disp("BoundUsys: ERROR. Not valid dimension for sigma. Sigma must be a nxn matrix, where n is the dimension of the uncertain system.")
     return
 end
 
